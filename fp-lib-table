@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "art")(type "KiCad")(uri "${KIPRJMOD}/art.pretty")(options "")(descr ""))
+  (lib (name "DS04-254-2-01BK-SMT")(type "KiCad")(uri "${KIPRJMOD}/components/DS04-254-2-01BK-SMT")(options "")(descr ""))
+)

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "DS04-254-2BK-SMT")(type "Legacy")(uri "${KIPRJMOD}/components/DS04-254-2-01BK-SMT/DS04-254-2-01BK-SMT.lib")(options "")(descr ""))
+)
