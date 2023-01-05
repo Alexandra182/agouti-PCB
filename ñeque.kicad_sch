@@ -975,10 +975,10 @@
   (symbol (lib_id "Device:C") (at 137.795 64.135 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2ca6ef39-f815-4a9e-b02e-a2a5054b8953)
-    (property "Reference" "C1" (id 0) (at 141.605 62.8649 0)
+    (property "Reference" "C1" (id 0) (at 140.97 62.8649 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10u" (id 1) (at 141.605 65.4049 0)
+    (property "Value" "2.2u" (id 1) (at 140.97 65.4049 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 138.7602 67.945 0)
@@ -1078,7 +1078,7 @@
     (in_bom yes) (on_board yes)
     (uuid 9222debe-bc45-4771-8734-63571eeac135)
     (property "Reference" "R1" (id 0) (at 123.19 55.245 90))
-    (property "Value" "1k" (id 1) (at 123.19 60.325 90))
+    (property "Value" "100k" (id 1) (at 123.19 60.325 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 123.19 59.563 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1234,7 +1234,7 @@
       (reference "BT1") (unit 1) (value "3V") (footprint "Battery:BatteryHolder_Keystone_3034_1x20mm")
     )
     (path "/2ca6ef39-f815-4a9e-b02e-a2a5054b8953"
-      (reference "C1") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C1") (unit 1) (value "2.2u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/c28cf999-c472-4d6d-8841-418c1a00fcf3"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_1206_3216Metric")
@@ -1246,7 +1246,7 @@
       (reference "IC1") (unit 1) (value "MIC1555YM5-TR") (footprint "MIC1555YM5-TR:SOT95P280X145-5N")
     )
     (path "/9222debe-bc45-4771-8734-63571eeac135"
-      (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R1") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/e9650f62-0b07-42b2-aac7-c30b4b10a148"
       (reference "R2") (unit 1) (value "220") (footprint "Resistor_SMD:R_0603_1608Metric")
